@@ -6,7 +6,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 // Update the URI to match the address of your Apollo Server
 const client = new ApolloClient({
-  uri: 'http://localhost:3001/graphql', // Change this to the correct server URL
+  uri: process.env.REACT_APP_GRAPHQL_URI || 'http://localhost:3001/graphql', // Change this to the correct server URL
   cache: new InMemoryCache(),
 });
 

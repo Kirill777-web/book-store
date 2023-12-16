@@ -44,8 +44,8 @@ To use the application:
 
 ## 🔗 Links
 
-- This is the link of my [GitHub repository](https://github.com/Kirill777-web/Thought-Thrive)
-- Link to the Heroku [Heroku](https://thought-thrive-b10edf1a6c47.herokuapp.com/login?source=post&postid=1)
+- This is the link of my [GitHub repository](https://github.com/Kirill777-web/book-store)
+- Link to the Heroku [Heroku](https://book-store-kl-7c5a3d10884f.herokuapp.com/)
 
 ## 🙏 Credits
 
