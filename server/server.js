@@ -12,7 +12,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'http://localhost:3000', // Your client's URL
+    origin:
+      process.env.NODE_ENV === 'production'
+        ? 'https://book-store-kl-7c5a3d10884f.herokuapp.com/'
+        : 'http://localhost:3000',
     credentials: true,
   })
 );
