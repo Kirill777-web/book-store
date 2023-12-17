@@ -19,7 +19,6 @@ app.use(
     credentials: true,
   })
 );
-
 const server = new ApolloServer({
   typeDefs,
   resolvers,
