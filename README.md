@@ -54,6 +54,7 @@ To use the application:
 - Link of documentation [Express.js](https://expressjs.com/)
 - Link of Heroku [Heroku](https://heroku.com/)
 - Link of NPM [NPM](https://www.npmjs.com/)
+- Link of connecting app with Mongo Atlas [Mongo_Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
 
 ## License
 
