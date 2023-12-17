@@ -12,6 +12,7 @@ const resolvers = {
   Mutation: {
     // createUser mutation
     async createUser(_, { username, email, password }) {
+      console.log('Creating user:', { username, email, password });
       const user = await User.create({ username, email, password });
       const token = signToken(user);
       return { token, user };
@@ -19,6 +20,7 @@ const resolvers = {
 
     // login mutation
     async login(_, { email, password }) {
+      console.log('Attempting login for:', { email, password });
       const user = await User.findOne({ email });
       if (!user) {
         throw new Error('No user found with this email address');

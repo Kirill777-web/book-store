@@ -47,7 +47,8 @@ const startApolloServer = async () => {
       console.log(`API server running on port ${PORT}!`);
       console.log(`Use GraphQL at http://localhost:${PORT}/graphql`);
     });
-  });
+  }).on('error', (err) => {
+  console.error('Database connection error:', err);
 };
 
 startApolloServer();

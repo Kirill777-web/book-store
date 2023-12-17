@@ -22,12 +22,13 @@ const SignupForm = () => {
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-
+    console.log('Form data:', userFormData);
     try {
       const { data } = await addUser({ variables: { ...userFormData } });
+      console.log('Login response:', data);
       Auth.login(data.createUser.token);
     } catch (err) {
-      console.error(err);
+      console.error('Login error:', err);
       setShowAlert(true);
     }
   };
