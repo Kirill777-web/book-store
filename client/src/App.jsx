@@ -4,9 +4,8 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
-// Update the URI to match the address of your Apollo Server
 const client = new ApolloClient({
-  uri: process.env.REACT_APP_GRAPHQL_URI,
+  uri: 'http://localhost:3001/graphql',
   cache: new InMemoryCache(),
 });
 
