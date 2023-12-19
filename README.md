@@ -47,6 +47,15 @@ To use the application:
 - This is the link of my [GitHub repository](https://github.com/Kirill777-web/book-store)
 - Link to the Heroku [Heroku](https://book-store-kl-7c5a3d10884f.herokuapp.com/)
 
+## Screenshots
+
+- Login to the book-store app ![Screenshot](./client/public/assets/loginUser.png)
+- Search book ![Screenshot](./client/public/assets/SearchBook.png)
+- Save book to the collections ![Screenshot](./client/public/assets/Savedbook.png)
+- Collections of saved books ![Screenshot](./client/public/assets/SavedBookCollecton.png)
+- Deleting Books ![Screenshot](./client/public/assets/Deleting_books.png)
+- No books ![Screenshot](./client/public/assets/No%20books.png)
+
 ## 🙏 Credits
 
 - Developed by: Kirill Lazutin
